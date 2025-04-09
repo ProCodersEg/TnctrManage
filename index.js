@@ -45,7 +45,7 @@ module.exports = async (req, res) => {
   };
 
   if (userId) payload.UserId = userId;
-  if (userIds) userIds.forEach((u, i) => payload[`UserIds.${i}`] = u);
+  if (userIds) payload.UserIds = userIds;  // Corrected to pass an array directly
   if (isMute !== undefined) payload.IsMute = isMute;
 
   const timestamp = Math.floor(Date.now() / 1000);
