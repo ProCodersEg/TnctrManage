@@ -11,8 +11,8 @@
     "crypto": "^1.0.1",
     "moment": "^2.29.4"
   },
-  "engines": {
-    "node": ">=16"
+   "engines": {
+    "node": "20.x"
   },
   "license": "MIT"
 }
