@@ -1,0 +1,18 @@
+{
+  "name": "trtc-room-manager",
+  "version": "1.0.0",
+  "description": "Serverless function to manage Tencent TRTC rooms and users (kick, mute, dismiss)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.8",
+    "crypto": "^1.0.1",
+    "moment": "^2.29.4"
+  },
+  "engines": {
+    "node": ">=16"
+  },
+  "license": "MIT"
+}
